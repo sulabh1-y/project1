@@ -1,0 +1,12 @@
+body{
+    background-image: url('back1.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color:darkgreen;
+    font-weight: bolder; 
+}

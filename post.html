@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial=1.0">
+        <title>List html</title>
+    </head>
+    <body>
+        <form method="POST" action="{% url 'addpost' %}">
+            {% csrf_token %}
+            <div>
+                <label>num1</label>
+                <input type="text" name="num1">
+            </div>
+            <div>
+                <label>num2</label>
+                <input type="text" name="num2">
+            </div>
+            <input type="submit" value="add">
+            <div>
+                <label>result</label>
+                <input type="text" value="{{result}}">
+            </div>
+            <a href="/">Home</a>
+        </form>
+    </body>
+</html>
