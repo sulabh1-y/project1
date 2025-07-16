@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GET Request</title>
+</head>
+<body>
+    <h1>GET Request</h1>
+    <form method="GET" action="{% url 'addget' %}">
+        <div>
+            <label>num1</label>
+            <input type="text" name="num1">
+        </div>
+        <div>
+            <label>num2</label>
+            <input type="text" name="num2">
+        </div>
+        <button type="submit" value="Add">Submit</button>
+    </form>
+</body>
+</html>
